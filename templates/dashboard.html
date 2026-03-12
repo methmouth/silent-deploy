@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Pentest Deployment Dashboard</h1>
+    <div id="devices"></div>
+    <script>
+        fetch('/devices').then(r=>r.json()).then(data=>{
+            document.getElementById('devices').innerHTML = 
+                JSON.stringify(data, null, 2);
+        });
+    </script>
+</body>
+</html>
