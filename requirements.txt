@@ -1,0 +1,8 @@
+flask==3.0.3
+adbutils==0.19.0
+pure-python-adb==0.4.12
+pyyaml==6.0.2
+libimobiledevice==2.0.1  # For iOS (system install)
+requests==2.32.3
+watchdog==4.0.2  # Auto-reload on file changes
+cryptography==43.0.1  # APK signing
